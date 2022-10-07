@@ -1,0 +1,86 @@
+
+body{
+  background-image: url(immagini/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box{
+  width: 940px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+section {
+  text-align: center;
+  padding: 10%;
+  font-size: 25px;
+}
+
+.logo {
+  position: relative;
+  margin: auto;
+  width: 25%;
+}
+
+.testo-logo {
+  position: relative;
+  color: #00dd00;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.botsup {
+  margin: auto;
+  background-color: #00dd00;
+  font-size: 3px;
+  padding: 8px;
+  width: 95%;
+  height: 80%;
+}
+
+
+main>section {
+  position: relative;
+  margin: auto;
+  left: 20%;
+  font-size: 12px;
+  font-family: Poppins;
+  text-align: left;
+  }
+
+.monolist {
+  font-size: 16px;
+
+}
+
+.barra {
+  border-radius: 3px;
+  height: 11px;
+  padding: 5px;
+
+}
+
+.barra.gialla {
+  background-color: #f5b453;
+  width: 20%;
+
+}
+
+.barra.verde {
+  background-color: #1ec31e;
+  width: 35%;
+
+}
+
+.barra.rossa {
+  background-color: #be4141;
+  width: 8%;
+
+}
+.freccia:before {
+  content: "\21a6";
+}
